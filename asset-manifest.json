@@ -1,16 +1,36 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.509fe715.js",
+    "main.css": "/static/css/main.7f3cf78a.css",
+    "main.js": "/static/js/main.b9d6a076.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
+    "static/media/naturebasket-img.png": "/static/media/naturebasket-img.7e76e447c6044d25f64e.png",
+    "static/media/myimage.jpg": "/static/media/myimage.80367f25c13d09877239.jpg",
+    "static/media/asset2.jpg": "/static/media/asset2.309ef3e441bb095152ed.jpg",
+    "static/media/gearbest-img.png": "/static/media/gearbest-img.d7de76b5f73ab9364e69.png",
+    "static/media/firstpost-img.png": "/static/media/firstpost-img.b87b0ac678fd9de27ac9.png",
+    "static/media/newpic.png": "/static/media/newpic.7235196c0fa66f3b0f47.png",
+    "static/media/pic2.png": "/static/media/pic2.e914a5787f4083548703.png",
+    "static/media/ipl.png": "/static/media/ipl.b027333227d46f383169.png",
+    "static/media/mongo.jpeg": "/static/media/mongo.723a7519898932187915.jpeg",
+    "static/media/metric.png": "/static/media/metric.63cd399d952a516882fd.png",
+    "static/media/hubpoint.png": "/static/media/hubpoint.b611d4a41cdff580dab8.png",
+    "static/media/gitproject.png": "/static/media/gitproject.fc8cc52e0edd8b7e19bd.png",
+    "static/media/swiper.png": "/static/media/swiper.12b3cd27b47d2d0c5ca2.png",
+    "static/media/redux.png": "/static/media/redux.6cd7a3272f352f24c671.png",
+    "static/media/json.png": "/static/media/json.d8b956c38e5497defe26.png",
+    "static/media/node.png": "/static/media/node.cae69bc4d48fd970e942.png",
+    "static/media/express.png": "/static/media/express.07120779ff2a0b57c7a6.png",
+    "static/media/react.png": "/static/media/react.fcef70f5d4f13bfb0bc5.png",
+    "static/media/css.png": "/static/media/css.eda4828e6ec588296287.png",
+    "static/media/js.png": "/static/media/js.c572b888296d91bb16de.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.509fe715.js.map": "/static/js/main.509fe715.js.map",
+    "main.7f3cf78a.css.map": "/static/css/main.7f3cf78a.css.map",
+    "main.b9d6a076.js.map": "/static/js/main.b9d6a076.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.509fe715.js"
+    "static/css/main.7f3cf78a.css",
+    "static/js/main.b9d6a076.js"
   ]
 }
