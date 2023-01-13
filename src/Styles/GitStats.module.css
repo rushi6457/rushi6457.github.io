@@ -67,13 +67,9 @@ width: 100%;
     transition: 2s;
     animation-name: git;
     animation-direction: alternate-reverse;
-    /* box-shadow:tomato(241, 238, 238, 0.35) 0px 5px 15px; */
-    /* margin-bottom: 20px; */
     color: tomato;
 }
-.calender:hover{
-    /* transform: rotateY(270deg); */
-}
+
 
 @media screen and (max-width:850px) {
     .mainStats{
@@ -93,7 +89,6 @@ width: 100%;
      .languages {
             width: 100%;
            padding-right: 10%;
-            /* padding-left: 10%; */
           margin-top: -50px;
         }
     .gitStats{
@@ -119,9 +114,7 @@ width: 100%;
 
           .languages {
               width: 100%;
-              /* padding-left: 10%; */
             padding-right: 10%;
-                /* margin-top: -50px; */
           }
          .gitStats {
              width: 105%;
@@ -132,7 +125,6 @@ width: 100%;
          .streakImg {
              width: 105%;
              display: block;
-             /* padding-right: 10%; */
              margin: auto;
             margin-top: -50%;
          }

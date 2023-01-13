@@ -10,19 +10,15 @@
 .details-full{
     width: 100%;
     font-size: 1.5rem;
-    /* padding-left: 5%; */
 }
 .profileImage{
 
     width: 90%;
-    /* margin-left: 150px; */
     border-radius: 100%;
     margin-left: 20%;
 }
 #about{
-       /* display: grid;
-       grid-template-columns: repeat(2,1fr);
-       margin: auto; */
+   
        display: flex;
        justify-content: center;
        align-items: center;
@@ -47,7 +43,6 @@
             padding: 5px;
             width: 90%;
             margin: auto;
-            /* margin-left: -10px; */
         }
     .profileImage{
         width: 70%;
@@ -61,7 +56,6 @@
     width: 100%;
     padding: 10px;
     font-size: 2rem;
-    /* line-height: 20px; */
     }
     .aboutHeading{
         margin-top: 5%;
