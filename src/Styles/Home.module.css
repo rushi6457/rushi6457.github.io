@@ -1,0 +1,206 @@
+.mask {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.intoImg {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    opacity: 0.2;
+}
+
+.mask ::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.8;
+
+}
+
+.hero {
+    height: 0vh;
+    /* changed 10 to 0 */
+    width: 100%;
+}
+
+.hero .content {
+    /* position: relative; */
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    animation-name: boxx;
+    animation-direction: alternate;
+    animation-duration: 4s;
+}
+.nameheading{
+
+    font-size: 1rem;
+}
+@keyframes boxx {
+    from {
+        width: 0;
+        opacity: 0;
+    }
+
+    to {
+        width: 100vw;
+        opacity: none;
+    }
+}
+.hero .content h3 {
+    font-size: 4rem;
+    padding-left: 100px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: white;
+}
+
+.helloText {
+    font-size: 30px;
+    text-align: left;
+    padding-left: 100px;
+    color: white;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+
+}
+
+.helloText {
+    position: relative;
+}
+.btn button{
+
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color:tomato;
+    color: white;
+    border: 1px solid;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0px;
+    width: 150px;
+   
+}
+
+.btnLight button{
+    background: rgb(65, 64, 64);
+    padding: 12px 32px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 15px;
+    width: 150px;
+ 
+}
+
+.btn button :hover {
+    background-color: pink;
+    transition: 0.3;
+}
+
+.btn-light:hover {
+    background-color: gray;
+}
+
+ 
+.designationText {
+
+    text-align: left;
+    padding-left: 100px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    color: rgb(161, 224, 224);
+    margin-bottom: 10px;
+}
+
+.hero .content p {
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+   
+}
+
+
+.content .btn {
+    margin: 1rem 0.2rem;
+
+}
+
+.content .btn :hover {
+    background:rgb(243, 106, 129);
+}
+
+.btn-light {
+    margin: 1rem 0.2rem;
+    width: auto;
+    background: rgb(41, 40, 40);
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    padding-left: 100px;
+   
+
+}
+
+.content {
+    position: relative;
+    height: 125vh;
+    /* margin-top: -400px; */
+}
+
+@media screen and (max-width:450px) {
+    .buttons {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: -10px;
+    }
+
+    .content{
+        height: 150vh;
+        position: relative;
+    }
+    .intoImg{
+        position: absolute;
+        width: 100vw;
+        height: 100vh;
+    }
+  
+    .mask{
+        width: 100vw;
+        height: 100vh;
+    }
+    .helloText {
+        padding-left: 50px;
+    }
+
+    .nameheading {
+        margin-left: -50px;
+        width: 70%;
+        margin-right: 20px;
+        color: white;
+    }
+
+    .designationText {
+        padding-left: 50px;
+    }
+
+}
+

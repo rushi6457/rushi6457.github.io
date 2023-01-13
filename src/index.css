@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,49 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Open+Sans:wght@500&family=Orelega+One&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@300&family=Secular+One&family=Source+Sans+Pro:ital,wght@1,600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+body{
+  background: rgb(3, 3, 3);
+}
+h1,h2,h3,h5,h4,p ,a{
+  color: white;
+  text-decoration: none;
+
+}
+
+.btn{
+
+  padding: 12px 32px;
+  font-size: 1rem;text-transform: uppercase;
+  background-color: rgb(243, 57, 24);
+  border: 1px solid;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-light{
+  background: transparent;
+  padding: 12px 32px;
+
+}
+.btn :hover{
+  background-color: pink;
+  transition: 0.3;
+}
+.btn-light:hover {
+    background-color: gray;
+}
+.nav-menu li{
+  padding: 1rem 0;
+}
+.nav-menu li a{
+  font-size: 2rem;
+
 }

@@ -1,0 +1,129 @@
+.name {
+    padding: 10px;
+    width: 100%;
+     font-size: large;
+    margin-bottom: 10px;
+}
+.fullContacts{
+    width: 40%;
+    margin: auto;
+}
+.email{
+    padding: 10px;
+   width: 100%;
+     font-size: large;
+    margin-bottom: 10px;
+}
+.message{
+    padding: 10px;
+   width: 100%;
+     font-size: large;
+     margin-bottom: 10px;
+}
+
+.send{
+    padding: 10px;
+    width: 100%;
+    background-color: tomato;
+    color: white;
+    font-size: large;
+    margin-top: 2%;
+    margin-bottom: 50px;
+}
+.send:hover{
+    background-color :rgb(243, 65, 65);
+    cursor: pointer;
+}
+.contactHeader{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.icons{
+    font-size: 30px;
+    color: white;
+    margin-right: 5%;
+}
+.contactflex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.Contactinfo{
+    margin-top: -20%;
+}
+.headSocial{
+    /* margin-bottom: 5%; */
+    text-align: center;
+    font-size: 1.5rem;
+}
+.queryhead{
+    line-height: 2rem;
+    font-size: 1.7rem;
+    margin-bottom: 1%;
+
+}
+.queryhead2{
+    line-height: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+
+}
+.contacts{
+    margin-top: 5%;
+}
+.mainContactheading{
+    text-align: justify;
+    font-size: 3rem;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.iconsFlex{
+    margin-bottom: 5%;
+    align-items: center;
+    justify-content: safe;
+}
+.mainFlex{
+
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+@media screen and (max-width : 1040px){
+       .contactflex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       } 
+    .formBox{
+        width: 60%;
+        margin: auto;
+    }
+    .mainContactheading{
+        text-align: center;
+    }
+    .mainFlex{
+        flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+}
+/* @media screen and (max-width:650px) {
+    .fullContacts {
+         /* padding: 10px; */
+         /* margin: auto; */
+         /* padding-right: 10px; */
+         /* width: 40%; */
+     /* }
+} */
+/* @media screen and (max-width:450px) {
+
+   .form{
+    width: 80%;
+    display: block;
+    margin: auto;
+   }
+}  */

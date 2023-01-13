@@ -1,0 +1,12 @@
+.footer{
+    height: 5%;
+    width: 100%;
+    padding: 1%;
+    border:none;
+    margin-top: 2%;
+    background-color: tomato;
+    
+}
+.footer p{
+    text-align: center;
+}

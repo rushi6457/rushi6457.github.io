@@ -1,0 +1,58 @@
+.coding-practices{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-top: 5%;
+}
+.coding-practices div{
+    border: 1px solid tomato;
+    padding: 10px;
+    border-radius: 15%;
+}
+
+.coding-practices div h1{
+    text-align: center;
+    color: tomato;
+}
+.coding-practices div h3{
+    text-align: center;
+}
+
+@media screen and (max-width:1040px) {
+    .coding-practices{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 80%;
+        margin: auto;
+        gap: 5%;
+        margin-top: 5%;
+    }
+    .coding-practices div h1{
+        text-align: center;
+        color: tomato;
+    }
+    .coding-practices div h3{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .coding-practices{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 80%;
+        margin: auto;
+        gap: 5%;
+        margin-top: 5%;
+    }
+    .coding-practices div h1{
+        text-align: center;
+        color: tomato;
+    }
+    .coding-practices div h3{
+        text-align: center;
+    }
+}

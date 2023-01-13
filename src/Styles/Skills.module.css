@@ -1,0 +1,122 @@
+.frontEndSkills{
+
+    width: 200px;
+    height: 150px;
+    border: 1px solid tomato;
+    align-items: center;
+}
+.frontEndSection{
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-left: 12%;
+    margin-top: 50px;
+}
+.skillsHeading{
+  
+    text-align: center;
+    text-decoration: underline;
+}
+.backendSkills{
+    width: 200px;
+        height: 150px;
+        border: 1px solid white;
+        align-items: center;
+}
+.backEndSection{
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        margin-left: 12%;
+        /* margin: auto; */
+   
+        margin-top: 50px;
+}
+.skillsHeadingBack{
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: underline;
+  
+}
+.skillsHeading{
+    margin-top: 50px;
+}
+.SkillsSection{
+    display: block;
+    margin: auto;
+}
+.frontEndGrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10%;
+}
+.backEndGrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   gap: 10%;
+}
+.skillsHeading{
+    text-align: justify;
+}
+.backEndBox h2{
+    margin-top: 10%;
+}
+.box{
+    border-radius: 10%;
+    padding: 2%;
+}
+.text{
+     border-radius: 20%;
+     padding: 2%;
+}
+   .mainStack{
+        width: 90%;
+        margin: auto;
+        padding-top: 200px;
+    }
+@media screen and (max-width:1040px) {
+
+    .frontEndGrid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+    .frontEndBox{
+        width: 100%;
+      
+    }
+     .backEndBox{
+        width: 100%;
+
+    }
+      .backEndGrid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+          gap: 30px;
+    }
+    .mainStack{
+        width: 85%;
+        margin: auto;
+     
+    }
+}
+@media screen and (max-width:450px) {
+    .skillsHeading{
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+        font-size: 35px;
+    }
+    .frontEndGrid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+  
+      .backEndGrid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+}

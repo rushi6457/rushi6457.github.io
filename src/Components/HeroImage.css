@@ -1,0 +1,132 @@
+.mask{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.into-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    opacity: 0.2;
+}
+.mask ::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.8;
+
+}
+.hero{
+    height: 10vh;
+    width: 100%;
+}
+.hero .content{
+    position: relative;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.hero .content h3{
+    font-size: 4rem;
+    padding-left: 100px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: white;
+}
+.helloText{
+    font-size: 30px;
+    text-align: left;
+    padding-left: 100px;
+    color: white;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+  
+}
+.helloText{
+    position: relative;
+}
+
+.designation-text{
+
+    text-align: left;
+    padding-left: 100px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    color: rgb(161, 224, 224);
+   margin-bottom: 10px;
+}
+.hero .content p{
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.content .btn{
+    margin: 1rem 0.2rem;
+
+}
+.content .btn :hover{
+    background:blue;
+}
+.btn-light{
+        margin: 1rem 0.2rem;
+        width: auto;
+        background: rgb(41, 40, 40);
+}
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    padding-left: 100px;
+    
+}
+.content{
+    position: relative;
+    height: 150vh;
+}
+
+@media screen and (max-width:450px) {
+     .buttons{
+           display: grid;
+           grid-template-columns: repeat(1,auto);      
+           row-gap: 0px; 
+           padding-left: 50px;
+     }   
+   .helloText{
+           padding-left: 50px; 
+   }
+   .nameheading{
+      margin-left: -50px;
+     width: 70%;
+     margin-right: 20px;
+   }
+
+   .designation-text{
+    padding-left: 50px;
+   }  
+
+   @keyframes typing {
+
+       20%,
+       30% {
+           left: calc(100% + 30px);
+       }
+
+       50% {
+           left: 0;
+
+       }
+   }
+}
+@media screen and (max-width :200px) {
+        .nameheading{
+            font-size: 10px;
+        }
+}

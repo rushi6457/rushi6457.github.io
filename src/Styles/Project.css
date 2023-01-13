@@ -1,0 +1,356 @@
+
+.project-section{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 95%;
+   margin: auto;
+    gap: 30px;
+    margin-top: 50px;
+  
+}
+.hideProjects{
+    display: none;
+}
+.showProjects{
+    display: initial;
+   
+    
+}
+
+
+ .project-screenshot{
+
+    width: 100%;
+    height: 100%;
+    transition: transform .8s;
+ }
+  .project-screenshot:hover{
+    transform: scale(1.5);
+    background: black;
+  }
+  .demo-button{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly
+  }
+.gear-best {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 50px;
+    padding: 10px;
+    border: 1px solid white;
+    /* box-shadow: rgba(247, 247, 248, 0.1) 0px 8px 24px, rgba(248, 248, 250, 0.1) 0px 16px 56px, rgba(255, 255, 255, 0.1) 0px 24px 80px; */
+}
+.stack-images{
+    width: 40px;
+    height: 40px;
+}
+.show-button{
+   
+    padding: 5px;
+    font-size: 25px;
+    width: 200px;
+    /* background-color: tomato; */
+    color:tomato;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+    /* margin: auto; */
+}
+.show-button-div{
+    margin: auto;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.github-search{
+    border: 1px solid white;
+    padding: 10px;
+}
+.booking-system{
+    border: 1px solid white;
+    padding: 10px;
+}
+.project-screenshot-ticket{
+    width: 100%;
+    height: 140%;
+}
+.responsibilities-head{
+    text-align: justify;
+   margin-bottom: 2%;
+}
+
+@media screen and (max-width:1040px) {
+    .project-section {
+            display: grid;
+            width: 90%;
+            margin: auto;
+            grid-template-columns: repeat(1, 1fr);
+            /* padding: 10px; */
+        }
+    .gear-best{
+        display: grid;
+        /* width: 90%; */
+        margin: auto;
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
+    }
+    /* .githubinfo{
+        width: 100%;
+    }
+    .iplinfo{
+        width: 100%;
+    } */
+    .project-description{
+        /* width: 400px; */
+        width: 100%;
+    }
+    .gearbest-info{
+        width: 100%;
+    }
+    .project-screenshot{
+            width: 100%;
+            height: 100%;
+          
+    }
+    .stack-images{
+    width: 70px;
+    height: 70px;
+}
+  
+    .demo-button{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 10px;
+        margin: auto;
+        margin-top: 2%;
+    }
+}
+@media screen and (max-width:450px) {
+    .project-section{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
+        /* margin: auto; */
+        /* width: 95%; */
+        gap: 20px;
+    }
+
+    .project-main-heading{
+      
+        font-size: 20px;
+       margin-left: -10%;
+       
+    }
+    /* .githubinfo{
+        width: 100%;
+    }
+    .iplinfo{
+        width: 100%;
+    } */
+    .project-section{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    .gear-best {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            padding: 10px;
+    }   
+    .stack-images{
+    width: 70px;
+    height: 70px;
+    }
+    .project-description {
+              width: 100%;
+    }
+        .project-screenshot {
+            width: 100%;
+        }
+        .gearbest-info h1{
+         text-align: center;
+        font-size: 30px;
+        }
+}
+.firstpost-info{
+    color: white;
+}
+.naturebasket-info {
+    color: white;
+}
+.gearbest-info {
+    color: white;
+    width: 100%;
+  
+}
+.gearbest-info h1{
+    /* font-size: 40px; */
+    margin-bottom: 10px;
+}
+.first-post{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    padding: 10px;
+    border: 1px solid white;
+    /* box-shadow: 2px 2px 2px 2px rgb(232, 239, 241); */
+/* box-shadow: rgba(247, 247, 248, 0.1) 0px 8px 24px, rgba(248, 248, 250, 0.1) 0px 16px 56px, rgba(255, 255, 255, 0.1) 0px 24px 80px; */
+}
+.nature-basket{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        padding: 10px;
+         border: 1px solid white;
+        /* box-shadow: 2px 2px 2px 2px rgb(232, 239, 241); */
+        /* box-shadow: rgba(247, 247, 248, 0.1) 0px 8px 24px, rgba(248, 248, 250, 0.1) 0px 16px 56px, rgba(255, 255, 255, 0.1) 0px 24px 80px; */
+}
+.live-demo-button{
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 150px;
+    /* margin-left: 5%; */
+
+   /* margin-top: 50px; */
+  /* margin-right: 20%; */
+    
+    cursor: pointer;
+}
+.live-demo-button:hover{
+    background-color: rgb(243, 149, 132);
+}
+.github-link-button{
+    padding: 10px;
+    background-color: tomato;
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    width: 150px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+.github-link-button:hover{
+    background-color: rgb(243, 149, 132);
+}
+.project-screenshot{
+    width: 100%;
+    /* height: 100%; */
+    opacity: 0.8;
+}
+.project-description{
+    text-align: justify;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.tech-stack-head{
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 5px;
+}
+.tech-stack-span{
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+.project-main-heading{
+    font-size: 40px;
+   padding-left: 50px;
+  
+}
+
+@media screen and (max-width:1050px) {
+    .first-post {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+    }
+     .showProjects{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        margin: auto;
+    }
+    .firstpost-info {
+        width: 100%;
+    }
+ .demo-button {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     row-gap: 10px;
+ }
+  
+
+}
+
+
+@media screen and (max-width:550px) {
+
+    .showProjects{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        margin: auto;
+    }
+
+    .first-post {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+       
+    }
+     .firstpost-info h1 {
+        margin-top: -50px;
+     
+        text-align: center;
+    } 
+         .demo-button {
+             display: grid;
+             grid-template-columns: repeat(1, 1fr);
+             row-gap: 10px;
+         }
+} 
+
+@media screen and (max-width:1050px) {
+    .nature-basket {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+    }
+ .showProjects{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+        margin: auto;
+    }
+    .naturebasket-info {
+        width: 100%;
+    }
+ .demo-button {
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     row-gap: 10px;
+ }
+}
+
+@media screen and (max-width:550px) {
+
+
+    .nature-basket {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+    }
+    .naturebasket-info h1{
+        margin-top: -50px;
+        text-align: center;
+        font-size: 25px;
+    }
+ .demo-button {
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     row-gap: 10px;
+ }
+}

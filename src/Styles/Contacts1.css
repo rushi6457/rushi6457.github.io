@@ -1,0 +1,138 @@
+.contacts-main{
+   display: flex;
+   justify-content: space-evenly;
+}
+.social-icons{
+    font-size: 35px;
+    color: tomato; 
+}
+#contacts{
+    padding-top: 100px;
+}
+.form-inner{
+    padding: 10px;
+    gap: 10px;
+}
+.form{
+    /* border: 1px solid white; */
+   width: 35%;
+}
+.social-contacts{
+    width: 100%;
+    padding: 20px;
+   
+}
+.icons-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-top: 20px;
+}
+.query-text{
+    text-align: justify;
+    padding: 5px;
+}
+.follow-text{
+    text-align: justify;
+    font-size: 1.5rem;
+}
+.icons-details a{
+    font-size: 20px;
+    text-align: justify;
+    
+}
+.input{
+    padding: 12px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 2%; 
+}
+.input-button{
+     padding: 15px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 8px;
+    background-color: tomato;
+    color: white;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.text-area{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 2%;
+     border-radius: 5px;
+}
+.icons-div{
+    width: 30%
+}
+.icons-div h2{
+    text-align: center;
+}
+.contacts-heading{
+    font-size: 3rem;
+    text-align: justify;
+    padding: 5%;
+    
+}
+@media screen and (max-width:1040px) {
+    .contacts-main{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .form{
+        width: 60%;
+        margin: auto;
+    }
+    .icons-div h2{
+        text-align: center;
+       margin-top: 2%;
+      
+    }
+    .icons-div{
+         /* border: 1px solid tomato; */
+         width: 60%;
+         margin: auto;
+    }
+    .social-contacts{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .contacts-heading{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .contacts-main{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .form{
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+    .icons-div h2{
+        text-align: center;
+       margin-top: 2%;
+      
+    }
+    .icons-div{
+         /* border: 1px solid tomato; */
+         width: 80%;
+         margin: auto;
+    }
+    .social-contacts{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .contacts-heading{
+        text-align: center;
+    }
+}
