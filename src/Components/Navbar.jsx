@@ -25,7 +25,7 @@ const Navbar = () => {
     window.addEventListener("scroll" , changeColor)
 
     return (
-        <div className={styles.header}>
+        <div className={styles.header} >
             <div><Link  spy={true} smooth={true} offset={50} duration={1000} ctiveClass={styles.active}  to="home"  className={styles.logo}><h1><span>R</span>USHIKESH</h1></Link></div>
             <ul className={click ? "nav-menu active"  : "nav-menu"}>
             

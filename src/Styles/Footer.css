@@ -9,4 +9,12 @@
 }
 .footer p{
     text-align: center;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width:450px) and (min-width:250px) {
+    .footer p{
+    text-align: center;
+    font-size: 0.7rem;
+}
 }

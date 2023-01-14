@@ -9,6 +9,7 @@
 width: 100%;
     transition: 2s;
     height: 300px;
+    border-radius: 10px;
     /* background-color: tomato; */
 }
 #github{
@@ -28,6 +29,7 @@ width: 100%;
     width: 100%;
         /* padding-left: 10%; */
         height: 300px;
+        border-radius: 10px;
         transition: 2s;
 }
 .streakImg:hover{
@@ -62,6 +64,7 @@ width: 100%;
 .calender{
     border: 1px solid white;
     width: 80%;
+    border-radius: 10px;
     margin: auto;
     padding: 10px;
     transition: 2s;
