@@ -45,15 +45,10 @@ const Home = () => {
                <Link className={styles.btn} to='projects'spy={true} smooth={true} offset={100} duration={1000}>
                 <button>Projects</button>
                </Link>
-               {/* <a className={styles.btnLight} download={'https://drive.google.com/file/d/1zfgAqNIhGAsOxJNGAeF6KY0cxF45find/view?usp=sharing'} target="_blank" > */}
-               <Link className={styles.btnLight} spy={true} smooth={true} offset={100} duration={1000}>
-              
-                <button  onClick={onButtonClick}>Resume</button>
             
-                {/* </a> */}
+               <Link className={styles.btnLight} spy={true} smooth={true} offset={100} duration={1000}>
+                <button  onClick={onButtonClick}>Resume</button>
                </Link>
-                {/* <Link to='/projects'  className={styles.btn}>Projects</Link>
-                  <Link to='/conatct' className={styles.btnLight}>Contacts</Link> */}
             </div>
              
         </div>

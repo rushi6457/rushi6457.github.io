@@ -30,19 +30,15 @@ const Navbar = () => {
             <ul className={click ? "nav-menu active"  : "nav-menu"}>
             
                   <li>
-                    {/* <Link to="/about" >About</Link> */}
                  <Link activeClass={styles.active} to="about" spy={true} smooth={true} offset={50} duration={1000}><FiUser className={styles.navbarIcons}/>About Me</Link>
                 </li>
                     <li> 
-                    {/* <Link to="/" >Home</Link> */}
                         <Link activeClass={styles.active} to="skills" spy={true} smooth={true} offset={100} duration={1000}><BiWrench className={styles.navbarIcons}/>Skills</Link>
                 </li>
                   <li>
-                    {/* <Link to="/projects">Projects</Link> */}
                        <Link activeClass={styles.active} to="projects" spy={true} smooth={true} offset={50} duration={1000}><AiOutlineFolderOpen className={styles.navbarIcons}/>Projects</Link>
                 </li>
                   <li>
-                    {/* <Link to="/contacts">Contacts</Link> */}
                         <Link activeClass={styles.active} to="contacts" spy={true} smooth={true} offset={50} duration={1000}><RiContactsBookLine className={styles.navbarIcons}/>Contact Me</Link>
                 </li>
                   <li>

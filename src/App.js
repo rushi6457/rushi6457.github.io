@@ -7,7 +7,6 @@ import Navbar from './Components/Navbar';
 import Skills from './Routes/Skills';
 import { useEffect, useState } from 'react';
 import GitCalender from './Routes/GitCalender'
-import Project1 from './Routes/Projects1';
 import Contacts1 from './Routes/Contact1';
 import Project from './Routes/Projects/Project';
 import Footer from './Routes/Footer';
@@ -29,9 +28,7 @@ function App() {
     return (
          
       <div className='app' >
-
         {loading ? 
-            // <div className='App-logo'><h1 class="plane"><span>R</span>USHIKESH</h1></div>
             <span className='flex'>
             
             <Animated  animationIn="zoomInLeft" animationOut="zoomOutUp" animationInDuration={2000} animationOutDuration={1000} isVisible={true}>
@@ -53,9 +50,6 @@ function App() {
         <Project/>
         {/* <Project1/> */}
         <Contacts1/>
-        {/* <Footer/> */}
-         {/* <Project/>  */}
-       {/* <Contact/>  */}
        </>
       }
      

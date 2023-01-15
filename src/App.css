@@ -3,22 +3,9 @@
 }
 
 .App-logo {
-  /* height: 100vh;
-  margin: auto; */
-  /* width: 15%;
-   position: relative;
-  animation-name: example;
-  animation-duration: 4s;
-  animation-delay: 2s;
- animation: App-logo-spin 5s linear 2s infinite alternate; */
-
+ 
 }
-/* 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin alternate 5s both;
-  }
-} */
+
 
 .App-header {
   background-color: #282c34;
