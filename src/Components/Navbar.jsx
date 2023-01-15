@@ -29,7 +29,7 @@ const Navbar = () => {
             <div><Link  spy={true} smooth={true} offset={50} duration={1000} ctiveClass={styles.active}  to="home"  className={styles.logo}><h1><span>R</span>USHIKESH</h1></Link></div>
             <ul className={click ? "nav-menu active"  : "nav-menu"}>
             
-                  <li>
+                <li>
                  <Link activeClass={styles.active} to="about" spy={true} smooth={true} offset={50} duration={1000}><FiUser className={styles.navbarIcons}/>About Me</Link>
                 </li>
                     <li> 

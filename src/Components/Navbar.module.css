@@ -34,11 +34,11 @@
 
 .navMenu li{
     padding: 0 1rem;
-  
+    list-style: none;
   
 }
 .navMenu li a{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 200;
    
 } 
