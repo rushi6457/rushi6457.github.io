@@ -99,7 +99,7 @@ const Contacts1 = () =>{
 
                     <Flex className="icons-details"><TfiEmail className="social-icons"/><a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer">rushiypatil@gmail.com</a></Flex>
 
-                      <Flex className="icons-details"><TfiLocationPin className="social-icons"/><a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer">Chalisgaon, Maharashtra</a></Flex>
+                      <Flex className="icons-details"><TfiLocationPin className="social-icons"/><p href="" target="_blank" rel="noopener noreferrer">Chalisgaon, Maharashtra</p></Flex>
                 </div>
             </div>
         </div>
