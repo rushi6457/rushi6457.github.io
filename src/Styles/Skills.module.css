@@ -73,7 +73,7 @@
    .mainStack{
         width: 90%;
         margin: auto;
-        padding-top: 200px;
+        padding-top: 250px;
     }
 @media screen and (max-width:1040px) {
 
@@ -98,7 +98,7 @@
     .mainStack{
         width: 85%;
         margin: auto;
-     
+          padding-top: 250px;
     }
 }
 @media screen and (max-width:450px) {
@@ -118,5 +118,8 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 20px;
+    }
+    .mainStack{
+           padding-top: 250px;
     }
 }

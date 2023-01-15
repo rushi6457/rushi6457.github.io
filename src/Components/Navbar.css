@@ -9,7 +9,7 @@
 }
 
 .nav-menu li a {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     font-weight: 500;
     text-decoration: none;
 }
@@ -47,6 +47,10 @@
 
     }
 
+    .nav-menu li{
+        text-align: justify;
+        font-size: 5rem;
+    }
  
     .navMenu li a {
         font-size: 3rem;
@@ -54,7 +58,7 @@
         font-weight: 600;
         color: rgb(255, 255, 255);
         text-decoration: none;
-        text-align: center;
+        text-align: justify;
         height: 100vh;
         display: flex;
         align-items: center;
@@ -67,30 +71,3 @@
     }
   
 }
-
-
-/* 
-@media screen and (max-width : 700px) {
-    .navMenu {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, 0.9);
-        top: 0;
-        right: -100%;
-        z-index: -3;
-        position: absolute;
-        transition: 0.3s;
-        transform-style: flat;
-    }
-
-    .nav-menu.active {
-        left: 0;
-    }
-
-    .hamberger {
-        display: initial;
-    }
-} */

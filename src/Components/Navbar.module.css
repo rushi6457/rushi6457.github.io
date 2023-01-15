@@ -15,12 +15,12 @@
     padding: 10px;
     padding-left: 10px;
     font-size: 20px;
-    font-size: 1rem;
+    font-size: 1.4rem;
     letter-spacing: 2px;
     cursor: pointer;
 }
 .logo span{
-    font-size: 50px;
+    font-size: 65px;
     color: tomato;
     margin-right: 0px;
 }
@@ -78,7 +78,7 @@
             font-size: 2rem;
         }
         .navMenu li a{
-            font-size: 2rem;
+            font-size: 4rem;
             line-height: 45px;
             font-weight: 600;
             color: rgb(255, 255, 255);
@@ -126,12 +126,13 @@
          z-index: 10;
         
      }
+     
    
 }
 .resumeButton{
-    padding: 5px;
-    width: 130px;
-    font-size: 1.4rem;
+    padding: 5px 15px 5px 15px;
+    width: 100%;
+    font-size: 1.7rem;
     margin-top: 0px;
     background-color:tomato;
     color: white;
