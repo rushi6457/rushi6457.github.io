@@ -5,6 +5,7 @@ import {SiLinkedin} from "react-icons/si";
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import {TfiEmail} from "react-icons/tfi";
+import {TfiLocationPin} from "react-icons/tfi";
 import Footer from './Footer';
 import "../Styles/Contacts1.css"
 import { Alert } from "react-bootstrap";
@@ -97,6 +98,8 @@ const Contacts1 = () =>{
                     <Flex className="icons-details"><SiLinkedin className="social-icons"/><a href='https://www.linkedin.com/in/rushikesh-patil-4a66b8236' target={'_blank'}>Linkedin profile</a></Flex>
 
                     <Flex className="icons-details"><TfiEmail className="social-icons"/><a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer">rushiypatil@gmail.com</a></Flex>
+
+                      <Flex className="icons-details"><TfiLocationPin className="social-icons"/><a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer">Chalisgaon, Maharashtra</a></Flex>
                 </div>
             </div>
         </div>
