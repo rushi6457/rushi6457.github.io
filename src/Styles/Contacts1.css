@@ -27,13 +27,15 @@
     justify-content: space-between;
     align-items: center;
    margin-top: 20px;
+   width: fit-content;
+   gap: 50px;
 }
 .query-text{
     text-align: justify;
     padding: 5px;
 }
 .follow-text{
-    text-align: justify;
+    text-align: center;
     font-size: 1.5rem;
 }
 .icons-details a{

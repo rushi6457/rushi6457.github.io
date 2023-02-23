@@ -120,8 +120,8 @@ const Contacts1 = () =>{
                     className="input-button" 
                     type="submit">Submit</button>
                 </form>
-            </div>
                <ToastContainer/>       
+            </div>
             <div className="icons-div">
                 <h2 className="follow-text">Follow & connect with me</h2>
                 <div className="social-contacts">
@@ -133,7 +133,7 @@ const Contacts1 = () =>{
 
                     <Flex className="icons-details"><TfiEmail className="social-icons"/><a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer">rushiypatil@gmail.com</a></Flex>
 
-                      <Flex className="icons-details"><TfiLocationPin className="social-icons"/><p href="" target="_blank" rel="noopener noreferrer">Chalisgaon, Maharashtra</p></Flex>
+                      <Flex className="icons-details" ><TfiLocationPin className="social-icons"/><p href="" target="_blank" rel="noopener noreferrer">Chalisgaon, Maharashtra</p></Flex>
                 </div>
             </div>
         </div>
