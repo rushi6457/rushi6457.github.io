@@ -63,8 +63,14 @@
     margin-top: 10%;
 }
 .box{
-    border-radius: 10%;
-    padding: 2%;
+    border-radius: 1rem;
+     padding: 2%;
+     transition: all 0.4s ease-in;
+}
+.box:hover {
+ transform: translateY(-1.5rem);
+ border: #f2295bf0 0.2em solid;
+ border-radius: 2.5rem 0 2.5rem 0;
 }
 .text{
      border-radius: 20%;
@@ -100,6 +106,17 @@
         margin: auto;
           padding-top: 250px;
     }
+    .box{
+    border-radius: 1rem;
+     padding: 2%;
+     transition: all 0.4s ease-in;
+       margin-top: 1%;
+}
+.box:hover {
+ transform: translateY(-1.2rem);
+ border: #f2295bf0 0.2em solid;
+ border-radius: 2.5rem 0 2.5rem 0;
+}
 }
 @media screen and (max-width:450px) {
     .skillsHeading{
@@ -122,4 +139,15 @@
     .mainStack{
            padding-top: 250px;
     }
+    .box{
+    border-radius: 1rem;
+     padding: 2%;
+     transition: all 0.4s ease-in;
+     margin-top: 1%;
+}
+.box:hover {
+ transform: translateY(-1.5rem);
+ border: #f2295bf0 0.2em solid;
+ border-radius: 2.5rem 0 2.5rem 0;
+}
 }

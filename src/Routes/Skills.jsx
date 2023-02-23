@@ -40,6 +40,8 @@ const Skills = () => {
                     data-aos="fade-up"
                     className={styles.frontEndBox}>
                     <Heading 
+                        marginTop={'5%'}
+                        padding={'2%'}
                         textAlign={'center'} 
                         textDecoration='underline'>FRONT-END SKILLS
                     </Heading>
@@ -53,7 +55,6 @@ const Skills = () => {
                              
                              <Image 
                                 width={'100%'} 
-                               
                                 src={html}></Image> 
                             <Text 
                                  className={styles.text}  
@@ -103,7 +104,7 @@ const Skills = () => {
                 </Box>
 
                  <Box data-aos="fade-up" className={styles.backEndBox}>
-                    <Heading as='h2' marginTop={'5%'}  textAlign={'center'} textDecoration='underline'>BACK-END SKILLS</Heading>
+                    <Heading  padding={'2%'} as='h2' marginTop={'5%'}  textAlign={'center'} textDecoration='underline'>BACK-END SKILLS</Heading>
                     <Grid  className={styles.backEndGrid} marginTop='5%'>  
                         <Box   className={styles.box} border='1px solid white' >
                             <Image  width={'100%'}src={node}></Image>

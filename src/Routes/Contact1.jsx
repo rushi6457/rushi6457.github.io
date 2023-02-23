@@ -9,42 +9,76 @@ import {TfiLocationPin} from "react-icons/tfi";
 import Footer from './Footer';
 import "../Styles/Contacts1.css"
 import { Alert } from "react-bootstrap";
+  import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 
 const Contacts1 = () =>{
 
-    const [show,setShow] = useState(true)
-    const [auth,setAuth] = useState(false)
     const [name,setName] = useState('')
     const [email,setEmail] = useState('')
     const [loading,setLoading] = useState(false)
+    const [user,setUser] = useState({
+      user_name:"",
+      user_email:"",
+      message:''
+    })
     const [message,setMessage] = useState('')
 
     const form = useRef();
-      const sendEmail = (e) => {
+  const sendEmail = (e) => {
         setLoading(true)
     e.preventDefault();
-
-    emailjs.sendForm("service_yflma3m","template_mxsh6ri", form.current, "zYKXfdbRCb8WRJeN0")
-      .then((result) => {
-          console.log(result.text);
-          setLoading(false)
-          alert("Email sent successfully")
-      }, (error) => {
-          console.log(error.text);
-        return  alert("Something went wrong")
-      });
-  };
-
- 
-  const onsubmit = (e) =>{
-    e.preventDefault()
-    if(name !== '' && email !== '' && message !== '' ){
-        return alert("Message send successfully")
-    }
-    else{
-      return alert("Please fill all input fields")
-    }
+    console.log(name,email,message);
+     emailjs.sendForm('service_yflma3m', 'template_mxsh6ri',  form.current, 'zYKXfdbRCb8WRJeN0').then(
+      (result) => {
+        console.log(result.text)
+        toast.success('Message Sent Successfully',toastOptions)
+      },
+      (error) => {
+        console.log(error.text)
+        toast.error('Ooops, something went wrong',toastOptions)
+      },
+    )
+    e.target.reset()
   }
+  //   emailjs.sendForm("service_yflma3m","template_mxsh6ri", form.current, "zYKXfdbRCb8WRJeN0")
+  //     .then((result) => {
+  //         console.log(result.text);
+  //         setLoading(false)
+  //         alert("Email sent successfully")
+  //     }, (error) => {
+  //         console.log(error.text);
+  //       return  alert("Something went wrong")
+  //     });
+  // };
+
+   const toastOptions = {
+           position:'bottom-left',
+                autoClose:8000,
+                pauseOnHover:true,
+                draggable:true,
+                theme:'dark'
+    }
+  
+  // const handleChange = (e) =>{
+  //     const {name,value} = e.target;
+  //     console.log(name,value);
+  //     setUser({
+  //       ...user,
+  //       [name]:value
+  //     })
+  // }
+ 
+  // const onsubmit = (e) =>{
+  //   e.preventDefault()
+   
+    // if(user.user_name !== '' && user.user_email !== '' && user.message !== '' ){
+    //      toast.success("Message send successfully",toastOptions)
+    // }
+    // else{
+    //    toast.error("Please fill all input fields",toastOptions)
+    // }
+  // }
 
 
     return (
@@ -54,10 +88,10 @@ const Contacts1 = () =>{
             <div className="form">
                 <h2 className="query-text">Have any query?</h2>
                 <p className="query-text" >Send me your queries here</p>
-                <form action="" className="form-inner"  ref={form} onSubmit={sendEmail}>
+                <form className="form-inner"  ref={form} onSubmit={sendEmail}>
                    <input 
                      type="text" 
-                    name="user_name" 
+                    name="name" 
                     onChange={({target})=>setName(target.value)} 
                     placeholder="Enter Name" 
                     className="input" 
@@ -65,7 +99,7 @@ const Contacts1 = () =>{
                      <br />
                     <input 
                     type="email" 
-                    name="user_email"
+                    name="email"
                     onChange={({target})=>setName(target.value)} 
                     placeholder="Enter Email" 
                     className="input" 
@@ -82,12 +116,12 @@ const Contacts1 = () =>{
                     {/* <input className="input-button"  type="submit" value="Send"  /> */}
                     <button 
                     onClick={onsubmit}
-                     value="Send"
+                    value="Send"
                     className="input-button" 
                     type="submit">Submit</button>
                 </form>
-                    
             </div>
+               <ToastContainer/>       
             <div className="icons-div">
                 <h2 className="follow-text">Follow & connect with me</h2>
                 <div className="social-contacts">
