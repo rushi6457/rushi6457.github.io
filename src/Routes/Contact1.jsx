@@ -27,12 +27,20 @@ const Contacts1 = () =>{
     const form = useRef();
   const sendEmail = (e) => {
         setLoading(true)
+    if(name === null || email === null || message === null){
+      toast.error("Input fields should not be empty",toastOptions)
+    }
     e.preventDefault();
     console.log(name,email,message);
      emailjs.sendForm('service_yflma3m', 'template_mxsh6ri',  form.current, 'zYKXfdbRCb8WRJeN0').then(
       (result) => {
-        console.log(result.text)
+       if(!result){
+        toast.error("Something went wrong")
+       }
+     
+      else{
         toast.success('Message Sent Successfully',toastOptions)
+      }
       },
       (error) => {
         console.log(error.text)
@@ -53,7 +61,7 @@ const Contacts1 = () =>{
   // };
 
    const toastOptions = {
-           position:'bottom-left',
+                position:'bottom-left',
                 autoClose:8000,
                 pauseOnHover:true,
                 draggable:true,
@@ -69,18 +77,7 @@ const Contacts1 = () =>{
   //     })
   // }
  
-  // const onsubmit = (e) =>{
-  //   e.preventDefault()
-   
-    // if(user.user_name !== '' && user.user_email !== '' && user.message !== '' ){
-    //      toast.success("Message send successfully",toastOptions)
-    // }
-    // else{
-    //    toast.error("Please fill all input fields",toastOptions)
-    // }
-  // }
-
-
+ 
     return (
         <div id="contacts" data-aos="fade-up">
         <h1 className="contacts-heading">Contacts</h1>
@@ -115,7 +112,7 @@ const Contacts1 = () =>{
                     rows="5"></textarea>
                     {/* <input className="input-button"  type="submit" value="Send"  /> */}
                     <button 
-                    onClick={onsubmit}
+                    // onClick={onsubmit}
                     value="Send"
                     className="input-button" 
                     type="submit">Submit</button>

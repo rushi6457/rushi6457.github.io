@@ -8,6 +8,7 @@ import Project6 from './Project6/Project6';
 import Project7 from './Project7/Project7';
 import Project8 from './Project8/Project8';
 import "./Project.css"
+import Project9 from './Project9/Project9';
 
 const Project = () => {
 
@@ -21,9 +22,11 @@ const Project = () => {
                 {/* <Project2/> */}
                 <br />
                 {/* <Project3/> */}
-                <Project1/>
+                <Project9/>
                 <br />
                 <div className={show === true ? 'showProjects' : "hideProjects"}>
+                <Project1/>
+                <br />
                 <Project8/>
                 <br />
                 <Project4/>
