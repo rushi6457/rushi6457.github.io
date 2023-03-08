@@ -53,6 +53,46 @@
     margin-right: 10px;
     margin-top: 5px;
 }
+
+.resumeButton {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: tomato;
+  transition: all 1000ms;
+  font-size: 1.2rem;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid tomato;
+}
+
+.resumeButton:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid tomato;
+  box-shadow: 4px 5px 17px -4px black;
+}
+
+.resumeButton::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  color: black;
+  background-color: black;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+.resumeButton:hover::before {
+  width: 250%;
+}
 @media screen and (max-width : 1040px){
   
   .header{
@@ -129,7 +169,7 @@
      
    
 }
-.resumeButton{
+/* .resumeButton{
     padding: 5px 15px 5px 15px;
     width: 100%;
     font-size: 1.7rem;
@@ -142,5 +182,5 @@
 }
 .resumeButton:hover{
     background-color: rgb(34, 33, 33);
-}
+} */
  

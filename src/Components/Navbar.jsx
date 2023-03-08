@@ -43,7 +43,9 @@ const Navbar = () => {
                 </li>
                   <li>
                     <a target={'_blank'} href='https://drive.google.com/file/d/1zfgAqNIhGAsOxJNGAeF6KY0cxF45find/view?usp=sharing'>
-                        <button className={styles.resumeButton}>Resume</button>
+                        <button className={styles.resumeButton}>Resume
+                        <span></span>
+                        </button>
                     </a>
                 </li>
             </ul>

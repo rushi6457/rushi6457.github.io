@@ -122,15 +122,15 @@ const Contacts1 = () =>{
             <div className="icons-div">
                 <h2 className="follow-text">Follow & connect with me</h2>
                 <div className="social-contacts">
-                    <Flex className="icons-details"><ImMobile2 className="social-icons"/><a>+91&nbsp;&nbsp;7709499930</a></Flex>
+                    <div className="icons-details"><ImMobile2 className="social-icons"/><a>+91&nbsp;&nbsp;7709499930</a></div>
 
-                    <Flex className="icons-details"><VscGithub className="social-icons"/><a href="https://github.com/rushi6457" target={'_blank'}>Github profile</a></Flex>
+                    <div className="icons-details"><VscGithub className="social-icons"/><a href="https://github.com/rushi6457" target={'_blank'}>Github profile</a></div>
 
-                    <Flex className="icons-details"><SiLinkedin className="social-icons"/><a href='https://www.linkedin.com/in/rushikesh-patil-4a66b8236' target={'_blank'}>Linkedin profile</a></Flex>
+                    <div className="icons-details"><SiLinkedin className="social-icons"/><a href='https://www.linkedin.com/in/rushikesh-patil-4a66b8236' target={'_blank'}>Linkedin profile</a></div>
 
-                    <Flex className="icons-details"><TfiEmail className="social-icons"/><a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer">rushiypatil@gmail.com</a></Flex>
+                    <div className="icons-details"><TfiEmail className="social-icons"/><a href="https://mail.google.com/" target="_blank" rel="noopener noreferrer">rushiypatil@gmail.com</a></div>
 
-                      <Flex className="icons-details" ><TfiLocationPin className="social-icons"/><p href="" target="_blank" rel="noopener noreferrer">Chalisgaon, Maharashtra</p></Flex>
+                      <div className="icons-details" ><TfiLocationPin className="social-icons"/><p href="" target="_blank" rel="noopener noreferrer">Chalisgaon, Maharashtra</p></div>
                 </div>
             </div>
         </div>

@@ -126,7 +126,7 @@
         flex-direction: column;
     }
     .form{
-        width: 60%;
+        width: 80%;
         margin: auto;
     }
     .icons-div h2{
@@ -134,15 +134,21 @@
        margin-top: 2%;
       
     }
+    .icons-details{
+        display: flex;
+        justify-content:space-between;
+    }
     .icons-div{
          /* border: 1px solid tomato; */
-         width: 60%;
+         width: 80%;
          margin: auto;
+         text-align: center;
     }
     .social-contacts{
         display: flex;
         justify-content: space-between;
-        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     .contacts-heading{
         text-align: center;
